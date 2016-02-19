@@ -1,0 +1,95 @@
+[B]1.2.1[/B]
+Add persistent widgets.
+Fix basic list.
+Fix header not disappear on password popup.
+
+[B]1.2.0[/B]
+Add possibility to show indicators of watched, unwatched, in progress and new videos with widget infos.
+Add possibility to show total number, unwatched number and watched number of episodes for TV shows and seasons.
+Add new Keyboard.
+Add autocompletion Keyboard (need plugin.program.autocompletion addon).
+Changes in numeric keyboard.
+Changes in Select, Browse and Profiles dialogs.
+Add auto size buttons on addons dialog infos.
+Tweak how cast lists etc are handled in videoinfo / extended info.
+Fix home menu with color for each tiles.
+Fix extended info video list views for new version.
+Fix dbid lookup in extendedinfo.
+Fix slide animation on home menu.
+Fix thumbs on episodes.
+Fix AM/PM not disappear on powermenu.
+Krypton : Changes infolabels on addons infos.
+Krypton : Add new default icons for addons browser root.
+
+[B]1.1.2[/B]
+Add possibility to show widget posters to be Always/Never/On Up for each menu item.
+Add possibility to hide header tile.
+Rollback with widgets playlists.
+Fix thumbs on episodes with info list 2.
+Fix playback previous item on weather widget (Thanks rhodges).
+Changes in home widgets.
+
+[B]1.1.1[/B]
+Add possibility to choose, photo, video or musique for splash screen.
+Add support for Arial font (Thanks yakirp88).
+Add new "Icons and texts only" home bar.
+Add possibility to show video infos panel when playback is paused.
+Add possibility to choose time before synopsis display in the video library.
+Fix AM/PM not disappear on submenu.
+Fix video info on actors info during playback.
+Fix aspect ratio poster on music playlist.
+Change ID of the skin.
+Change system date to be the same as date in settings.
+
+[B]1.1.0[/B]
+Add possibility to customize up to 15 hubs.
+Add search function in video library.
+Add possibility to create color theme.
+Add new login screen.
+Change : Header tile color is same as home bar color.
+Change : DialogKaiToast.xml has been renamed to DialogNotification.xml.
+Change : MyMusicPlaylist.xml / MyVideoPlaylist.xml has been merged into MyPlaylist.xml.
+Change : DialogOK.xml / DialogProgress.xml / DialogYesNo.xml has been merged into DialogConfirm.xml.
+Change : DialogAlbumInfo / DialogSongInfo.xml are merged into DialogMusicInfo.xml.
+Change : DialogMuteBug.xml has been removed.
+Cleanup duplicate widgets.
+Many changes in skin settings.
+Fix missing textures.
+
+[B]1.0.4[/B]
+Add new submenu on home.
+Add loop selection on submenu.
+Fix RSS on weather screen.
+Fix sources settings dialog.
+Other fixes.
+Changes for Krypton in progress...
+
+[B]1.0.3[/B]
+Add possibility to password protect items on home menu (Password need to be configured in extras skin settings and protection in personnalise home menu).
+Fix for "Text in tiles" home bar menu style when there is more 10 items.
+Fix RSS for new home bar menu.
+Fix submenu background when home background is added.
+Fix views for movies sets.
+
+[B]1.0.2[/B]
+Add support for studio icons.
+Add seasons and episodes numbers for Nextup Service Notification.
+Add possibility to change home bar color and opacity in skin settings.
+Add possibility to change widget tile color and opacity in skin settings.
+Add possibility to add background for each submenu items.
+Add possibility to add background for each hub items.
+Add arrows on "text only" home bar menu style.
+Add new "Posters list" view.
+Add possibility to replace widget fanart with home background.
+Fix logo with UnwatchedInfo from Nextup Service Notification with new update.
+Fix Big List view.
+Fix home bar menu arrows.
+Fix for "beveled tiles" and "empty beleved tiles" home bar menu style when there is more 10 items.
+
+[B]1.0.1[/B]
+Fix home menu bar problem.
+
+[B]1.0.0[/B]
+Initial release.
+
+All updates from original version and mod are included.

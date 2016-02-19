@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol always="true">10</defaultcontrol>
+
+	<controls>
+		<include>GlobalOverlay</include>
+		<control type="group">
+            		<left>0</left>
+        		<right>0</right>
+        		<bottom>0</bottom>
+        		<height>280</height>
+        		<include>Dialog_Background</include>
+        		<include>Animation_Bottom</include>
+
+        		<!-- Heading -->
+        		<control type="label" id="1">
+            			<left>70</left>
+            			<right>50</right>
+            			<top>30</top>
+            			<height>60</height>
+            			<aligny>center</aligny>
+            			<align>left</align>
+        		</control>
+
+        		<!-- Details -->
+        		<control type="textbox" id="9">
+            			<left>70</left>
+            			<right>720</right>
+            			<top>100</top>
+            			<bottom>25</bottom>
+            			<align>left</align>
+            			<font>Font-ListInfo-Small</font>
+        		</control>
+        		
+        		<control type="progress" id="20">
+                		<top>0</top>
+                		<width>100%</width>
+               			<height>16</height>
+                		<info>System.Progressbar</info>
+            		</control>
+        		
+        		<control type="grouplist" id="9000">
+                		<right>70</right>
+        			<align>right</align>
+        			<bottom>30</bottom>
+        			<height>69</height>
+        			<orientation>horizontal</orientation>
+        			<itemgap>side</itemgap>
+        			
+        			<control type="button" id="11">
+            				<align>center</align>
+            				<width>300</width>
+            				<label>186</label>
+            				<include>Defs_OptionButton</include>
+        			</control>
+        			
+                		<control type="button" id="10">
+            				<align>center</align>
+            				<width>300</width>
+            				<label>222</label>
+            				<include>Defs_OptionButton</include>
+        			</control>
+        			
+        			<control type="button" id="12">
+					<align>center</align>
+            				<width>300</width>
+            				<label>106</label>
+            				<include>Defs_OptionButton</include>
+				</control>
+			</control>	
+				
+            	
+            	</control>	
+
+	</controls>
+
+</window>
