@@ -5,15 +5,12 @@
 	<variable name="PlayerPoster">
         		<value condition="!IsEmpty(Player.Art(tvshow.poster))">$INFO[Player.Art(tvshow.poster)]</value>
         		<value condition="!IsEmpty(Player.Art(poster))">$INFO[Player.Art(poster)]</value>
-        		<value>$INFO[Player.Art(thumb)]</value>
     	</variable>
 
 <!-- Ajout Variable -->
 	<variable name="ClearArt">
 		<value condition="!IsEmpty(ListItem.Art(tvshow.clearart))">$INFO[ListItem.Art(tvshow.clearart)]</value>
 		<value condition="!IsEmpty(ListItem.Art(clearart))">$INFO[ListItem.Art(clearart)]</value>
-		<value condition="!IsEmpty(ListItem.Art(tvshow.clearlogo))">$INFO[ListItem.Art(tvshow.clearlogo)]</value>
-		<value condition="!IsEmpty(ListItem.Art(clearlogo))">$INFO[ListItem.Art(clearlogo)]</value>
 		<value condition="Window.IsVisible(script-skin_helper_service-CustomInfo.xml) + !IsEmpty(Container(999).ListItem.Art(tvshow.clearart))">$INFO[Container(999).ListItem.Art(tvshow.clearart)]</value>
 		<value condition="Window.IsVisible(script-skin_helper_service-CustomInfo.xml) + !IsEmpty(Container(999).ListItem.Art(clearart))">$INFO[Container(999).ListItem.Art(clearart)]</value>
 	</variable>
