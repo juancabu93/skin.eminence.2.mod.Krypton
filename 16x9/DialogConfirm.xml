@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
-	<defaultcontrol always="true">10</defaultcontrol>
 
 	<controls>
 		<include>GlobalOverlay</include>
@@ -39,7 +38,7 @@
                 		<info>System.Progressbar</info>
             		</control>
         		
-        		<control type="grouplist" id="9000">
+        		<control type="grouplist">
                 		<right>70</right>
         			<align>right</align>
         			<bottom>30</bottom>
@@ -50,14 +49,14 @@
         			<control type="button" id="11">
             				<align>center</align>
             				<width>300</width>
-            				<label>186</label>
+            				<label>107</label>
             				<include>Defs_OptionButton</include>
         			</control>
         			
                 		<control type="button" id="10">
             				<align>center</align>
             				<width>300</width>
-            				<label>222</label>
+            				<label>106</label>
             				<include>Defs_OptionButton</include>
         			</control>
         			
