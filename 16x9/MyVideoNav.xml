@@ -46,7 +46,7 @@
             <include>Viewtype_Posters_List1</include>
             <include>Viewtype_Cycle</include>
             <include>Viewtype_BigWide_Classic</include>
-            <include>Viewtype_Banner</include> 
+            <include>Viewtype_Banner</include>
         </control>
 
 
@@ -97,7 +97,7 @@
                     <label>31733</label>
                     <selected>Skin.HasSetting(hidenextairedinfos)</selected>
                     <onclick>Skin.ToggleSetting(hidenextairedinfos)</onclick>
-                    <visible>Container.Content(tvshows)</visible>
+                    <visible>Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)</visible>
                 </control>
                 
                 <!-- Hide/Show Indicators -->
@@ -146,13 +146,6 @@
                     <include>Defs_OptionButton</include>
                     <onclick>SetFocus(50)</onclick>
                 </control>
-                <!-- Back Panels -->
-                <!-- <control type="radiobutton" id="9001">
-                    <label>31004</label>
-                    <include>Defs_OptionButton</include>
-                    <onclick>Skin.ToggleSetting(global.backpanelmode)</onclick>
-                    <selected>Skin.HasSetting(global.backpanelmode)</selected>
-                </control> -->
             </control>
 
         </control>
