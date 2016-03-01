@@ -90,8 +90,8 @@
             <include>Animation.FadeIn</include>
             <include>Animation.FadeOut</include>             
             <visible>!Window.IsVisible(script-ExtendedInfo Script-DialogVideoInfo.xml) + !Window.IsVisible(script-ExtendedInfo Script-DialogInfo.xml)</visible>
-            <visible>Skin.HasSetting(show.clearlogo)</visible>
-            <visible>!Control.IsVisible(159)</visible>             
+            <visible>Skin.HasSetting(show.clearlogo)</visible> 
+            <visible>!Control.IsVisible(159) + !Control.IsVisible(162)</visible>
             <centertop>115</centertop>
             <centerleft>50%</centerleft>
             <width>400</width>             
@@ -634,7 +634,7 @@
             <animation effect="fade" end="100" start="0" time="250" condition="Window.Previous(home) | Window.Previous(visualisation) | Window.Previous(fullscreenvideo)">WindowOpen</animation>
             <animation effect="fade" end="0" start="100" time="250" condition="Window.Next(home)">WindowClose</animation>
             <visible>!Window.IsVisible(home) + !Window.IsVisible(visualisation)</visible>
-        </control>
+        </control>       
     </include>
 
     <!-- TOP BAR -->
@@ -791,7 +791,7 @@
             <visible>[VideoPlayer.IsFullscreen | !Skin.HasSetting(disable.headertile)]</visible>
         </control>
     </include>
-    <include name="Furniture_TopBar_Tile_Content">       
+    <include name="Furniture_TopBar_Tile_Content">        
         <control type="image">
             <posy>10</posy>
             <posx>30</posx>
@@ -914,8 +914,8 @@
                 <posy>25</posy>
                 <width>1200</width>
                 <height>100</height>
-                <scroll>yes</scroll>
                 <font>Font-Header</font>
+                <scroll>yes</scroll>
                 <label>$INFO[Player.Title]</label>
                 <aligny>top</aligny>
                 <textcolor>$VAR[Furniture_TopBar_MainLabel_Color]</textcolor>
