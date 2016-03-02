@@ -421,11 +421,13 @@
 <!-- Ajout Value -->
          <value condition="Control.HasFocus(9021)">$LOCALIZE[31726]</value>  
 <!-- Ajout Value -->
-         <value condition="Control.HasFocus(9114)">$LOCALIZE[31727]</value> 
+         <value condition="Control.HasFocus(9114)">$LOCALIZE[31727]</value>
 <!-- Ajout Value -->
-         <value condition="Control.HasFocus(9115)">$LOCALIZE[31610]</value>      
+         <value condition="Control.HasFocus(9115)">$LOCALIZE[31610]</value>
 <!-- Ajout Value -->
-         <value condition="Control.HasFocus(9116)">$LOCALIZE[31741]</value>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+         <value condition="Control.HasFocus(9116)">$LOCALIZE[31741]</value> 
+<!-- Ajout Value -->
+         <value condition="Control.HasFocus(8913)">$LOCALIZE[31748]</value>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
     </variable>
 
     <variable name="Label_PlayerStatus">
@@ -456,6 +458,7 @@
         <value condition="!IsEmpty(Skin.String(home.fallbackwidget)) + !IsEmpty(Skin.String(home.fallbackwidget.name))">$INFO[Skin.String(home.fallbackwidget.name)]</value>
         <value>$LOCALIZE[31095]</value>
     </variable>
+    
 
     <variable name="Label_Hub_WidgetType">
         <value condition="Skin.HasSetting(furniture.hidehubplot)">$VAR[Label_Hub_WidgetLabel]$VAR[Label_Hub_WidgetLabel2,  •  ,]</value>
