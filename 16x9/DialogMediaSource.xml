@@ -18,11 +18,11 @@
                 <left>side</left>
                 <right>side</right>
                 <height>height</height>
-                <include name="Object_Line">
+                <include content="Object_Line">
                     <param name="width" value="1880" />
                     <param name="label" value="$LOCALIZE[1021]" />
                 </include>
-                <include name="Dialog_BasicList">
+                <include content="Dialog_BasicList">
                     <param name="width" value="1402" />
                     <param name="height" value="483" />
                     <param name="id" value="10" />
@@ -66,7 +66,7 @@
                 <control type="group">
                     <bottom>64</bottom>
                     <height>69</height>
-                    <include name="Object_Line">
+                    <include content="Object_Line">
                         <param name="width" value="1880" />
                         <param name="label" value="$LOCALIZE[1022]" />
                     </include>

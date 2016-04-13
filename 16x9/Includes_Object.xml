@@ -379,7 +379,7 @@
                 <left>$PARAM[left]</left>
                 <width>$PARAM[width]</width>
                 <height>height</height>
-                <include name="Object_Line">
+                <include content="Object_Line">
                     <param name="width" value="$PARAM[width]" />
                     <param name="label" value="$PARAM[label]" />
                 </include>
@@ -424,7 +424,7 @@
                 <left>$PARAM[left]</left>
                 <width>740</width>
                 <height>height</height>
-                <include name="Object_Line">
+                <include content="Object_Line">
                     <param name="width" value="740" />
                     <param name="label" value="$PARAM[label]" />
                 </include>
@@ -471,7 +471,7 @@
                 <left>$PARAM[left]</left>
                 <width>1020</width>
                 <height>height</height>
-                <include name="Object_Line">
+                <include content="Object_Line">
                     <param name="width" value="1020" />
                     <param name="label" value="$PARAM[label]" />
                 </include>

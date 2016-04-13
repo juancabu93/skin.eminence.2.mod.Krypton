@@ -11,16 +11,16 @@
         <include>Furniture_TopBar</include>
         
         <control type="group" id="50">
-            <include name="PVR_SmallList">
+            <include content="PVR_SmallList">
                 <param name="id" value="11" />
                 <param name="label" value="19030" />
             </include>
-            <include name="PVR_SmallList">
+            <include content="PVR_SmallList">
                 <param name="id" value="12" />
                 <param name="label" value="19031" />
                 <param name="include" value="PVR_SmallList_StartTime" />
             </include>
-            <include name="PVR_SmallList">
+            <include content="PVR_SmallList">
                 <param name="id" value="13" />
                 <param name="visible" value="Player.HasVideo + VideoPlayer.Content(livetv)" />
                 <param name="label" value="19029" />

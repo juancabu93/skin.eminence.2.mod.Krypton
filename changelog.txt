@@ -1,3 +1,9 @@
+[B]1.4.2[/B]
+Changes for Krypton latest build.
+Fix duration flag.
+To do : DialogGameControllers.xml
+	   Change string / integer compare
+
 [B]1.4.1[/B]
 Add small home submenu.
 Add small powermenu.

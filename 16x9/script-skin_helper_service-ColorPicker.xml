@@ -11,7 +11,7 @@
             <width>1382</width>
 	   <height>780</height>
             <include>Dialog_Background</include>
-            <include name="Dialog_Top_IconColorPicker">
+            <include content="Dialog_Top_IconColorPicker">
                 <param name="label" value="$ADDON[script.skin.helper.service 32011]" />
                 <param name="icon" value="special://skin/extras/icons/paintbrush.png" />
             </include>

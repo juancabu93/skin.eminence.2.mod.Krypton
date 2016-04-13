@@ -11,7 +11,7 @@
             <bottom>89</bottom>
             <height>652</height>
             <include>Dialog_Background</include>
-            <include name="Dialog_Top_IconHeader">
+            <include content="Dialog_Top_IconHeader">
                 <param name="label" value="$INFO[Control.GetLabel(411)]" />
                 <param name="icon" value="special://skin/extras/icons/filebox.png" />
             </include>
@@ -49,7 +49,7 @@
                 <texture background="true" fallback="DefaultAddon.png" flipx="true">$INFO[ListItem.Icon]</texture>
                 <visible>!SubString(ListItem.Icon,Default) + SubString(Control.GetLabel(416),*)</visible>
             </control>
-            <include name="Dialog_ImageList">
+            <include content="Dialog_ImageList">
                 <param name="id" value="450" />
                 <param name="moveid" value="9000" />
                 <param name="onup" value="450" />
@@ -57,7 +57,7 @@
                 <param name="left" value="582" />
                 <param name="width" value="1160" />
             </include>
-            <include name="Dialog_ImageList">
+            <include content="Dialog_ImageList">
                 <param name="id" value="451" />
                 <param name="moveid" value="9000" />
                 <param name="onup" value="450" />

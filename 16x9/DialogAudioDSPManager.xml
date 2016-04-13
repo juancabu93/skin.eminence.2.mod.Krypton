@@ -13,7 +13,7 @@
             <height>height</height>
         
             <control type="group">
-                <include name="Object_Line">
+                <include content="Object_Line">
                     <param name="width" value="1880" />
                     <param name="label" value="5" />
                 </include>
@@ -104,7 +104,7 @@
                 <control type="group">
                     <description>available modes group</description>
                     <width>935</width>
-                    <include name="Object_Line">
+                    <include content="Object_Line">
                         <param name="width" value="935" />
                         <param name="label" value="$LOCALIZE[15050] ($INFO[Container(20).NumItems])" />
                     </include>
@@ -205,7 +205,7 @@
                     <left>945</left>
                     <width>935</width>
                     <height>100%</height>
-                    <include name="Object_Line">
+                    <include content="Object_Line">
                         <param name="width" value="935" />
                         <param name="label" value="$LOCALIZE[15051] ($INFO[Container(21).NumItems])" />
                     </include>
@@ -308,7 +308,7 @@
                 <width>100%</width>
                 <top>621</top>
                 <height>69</height>
-                <include name="Object_Line">
+                <include content="Object_Line">
                     <param name="width" value="1880" />
                     <param name="label" value="33063" />
                 </include>

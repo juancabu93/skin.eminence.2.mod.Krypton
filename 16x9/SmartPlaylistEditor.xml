@@ -21,7 +21,7 @@
                 <!-- Playlist Type Spin -->
                 <control type="group">
                     <height>69</height>
-                    <include name="Object_Line">
+                    <include content="Object_Line">
                         <param name="width" value="1880" />
                         <param name="label" value="$LOCALIZE[20333]" />
                     </include>
@@ -37,11 +37,11 @@
                 <control type="group">
                     <top>138</top>
                     <height>207</height>
-                    <include name="Object_Line">
+                    <include content="Object_Line">
                         <param name="width" value="1480" />
                         <param name="label" value="$LOCALIZE[21421]" />
                     </include>
-                    <include name="Dialog_BasicList">
+                    <include content="Dialog_BasicList">
                         <param name="width" value="1480" />
                         <param name="height" value="207" />
                         <param name="id" value="10" />
@@ -57,7 +57,7 @@
                     <height>207</height>
                     <left>1490</left>
                     <right>0</right>
-                    <include name="Object_Line">
+                    <include content="Object_Line">
                         <param name="width" value="390" />
                         <param name="label" value="$LOCALIZE[33063]" />
                     </include>
@@ -91,7 +91,7 @@
                     <top>414</top>
                     <width>1880</width>
                     <height>207</height>
-                    <include name="Object_Line">
+                    <include content="Object_Line">
                         <param name="width" value="1880" />
                         <param name="label" value="$LOCALIZE[10132]" />
                     </include>

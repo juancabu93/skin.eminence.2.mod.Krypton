@@ -11,11 +11,11 @@
             <right>side</right>
             <top>top</top>
             <height>height</height>
-            <include name="Object_Line">
+            <include content="Object_Line">
                 <param name="width" value="1880" />
                 <param name="label" value="$INFO[Control.GetLabel(3),, ]$INFO[Control.GetLabel(4),[COLOR=PosterBorder]-[/COLOR] , ]" />
             </include>
-            <include name="View_Wide">
+            <include content="View_Wide">
                 <param name="id" value="55" />
                 <param name="condition" value="Container.Content(tvshows) | Container.Content(movies) | Container.Content(seasons)" />
             </include>
@@ -129,11 +129,11 @@
             <right>side</right>
             <top>top</top>
             <height>height</height>
-            <include name="Object_Line">
+            <include content="Object_Line">
                 <param name="width" value="1880" />
                 <param name="label" value="$INFO[Control.GetLabel(3),, ]$INFO[Control.GetLabel(4),[COLOR=PosterBorder]-[/COLOR] , ]" />
             </include>
-            <include name="View_Fanart">
+            <include content="View_Fanart">
                 <param name="id" value="56" />
                 <!--<param name="condition" value="Window.IsVisible(MyPics.xml) | Container.Content(episodes) | Container.Content(tvshows) | Container.Content(movies)" />-->
             </include>
@@ -398,11 +398,11 @@
             <right>side</right>
             <top>top</top>
             <height>height</height>
-            <include name="Object_Line">
+            <include content="Object_Line">
                 <param name="width" value="1880" />
                 <param name="label" value="$INFO[Control.GetLabel(3),, ]$INFO[Control.GetLabel(4),[COLOR=PosterBorder]-[/COLOR] , ]" />
             </include>
-            <include name="View_BigWide">
+            <include content="View_BigWide">
                 <param name="id" value="53" />
                 <!--<param name="condition" value="Container.Content(sets) | Container.Content(episodes) | Container.Content(tvshows) | Container.Content(movies)" />-->
             </include>
@@ -425,11 +425,11 @@
             <right>side</right>
             <top>top</top>
             <height>height</height>
-            <include name="Object_Line">
+            <include content="Object_Line">
                 <param name="width" value="1880" />
                 <param name="label" value="$INFO[Control.GetLabel(3),, ]$INFO[Control.GetLabel(4),[COLOR=PosterBorder]-[/COLOR] , ]" />
             </include>
-            <include name="View_Gallery">
+            <include content="View_Gallery">
                 <param name="id" value="505" />
                 <!--<param name="condition" value="Container.Content(sets) | Container.Content(episodes) | Container.Content(tvshows) | Container.Content(movies)" />-->
             </include>
@@ -878,11 +878,11 @@
             <right>side</right>
             <top>top</top>
             <height>height</height>
-            <include name="Object_Line">
+            <include content="Object_Line">
                 <param name="width" value="1880" />
                 <param name="label" value="$INFO[Control.GetLabel(3),, ]$INFO[Control.GetLabel(4),[COLOR=PosterBorder]-[/COLOR] , ]" />
             </include>
-            <include name="View_BigWideLogo">
+            <include content="View_BigWideLogo">
                 <param name="id" value="600" />
                 <param name="condition" value="Container.Content(sets) | Container.Content(tvshows) | Container.Content(movies)" />
             </include>
@@ -1146,11 +1146,11 @@
             <right>side</right>
             <top>top</top>
             <height>height</height>
-            <include name="Object_Line">
+            <include content="Object_Line">
                 <param name="width" value="1880" />
                 <param name="label" value="$INFO[Control.GetLabel(3),, ]$INFO[Control.GetLabel(4),[COLOR=PosterBorder]-[/COLOR] , ]" />
             </include>
-            <include name="View_BigWide_Classic">
+            <include content="View_BigWide_Classic">
                 <param name="id" value="157" />
             </include>
         </control>
@@ -1250,11 +1250,11 @@
             <right>side</right>
             <top>top</top>
             <height>height</height>
-            <include name="Object_Line">
+            <include content="Object_Line">
                 <param name="width" value="1880" />
                 <param name="label" value="$INFO[Control.GetLabel(3),, ]$INFO[Control.GetLabel(4),[COLOR=PosterBorder]-[/COLOR] , ]" />
             </include>
-            <include name="View_BigWideClearArt">
+            <include content="View_BigWideClearArt">
                 <param name="id" value="160" />
                 <param name="condition" value="Container.Content(sets) | Container.Content(tvshows) | Container.Content(movies)" />
             </include>
@@ -1504,11 +1504,11 @@
             <right>side</right>
             <top>top</top>
             <height>height</height>
-            <include name="Object_Line">
+            <include content="Object_Line">
                 <param name="width" value="1880" />
                 <param name="label" value="$INFO[Control.GetLabel(3),, ]$INFO[Control.GetLabel(4),[COLOR=PosterBorder]-[/COLOR] , ]" />
             </include>
-            <include name="View_ClearArts_List">
+            <include content="View_ClearArts_List">
                 <param name="id" value="161" />
                 <param name="condition" value="Container.Content(sets) | Container.Content(tvshows) | Container.Content(movies)" />
             </include>
@@ -1894,11 +1894,11 @@
             <right>side</right>
             <top>top</top>
             <height>height</height>
-            <include name="Object_Line">
+            <include content="Object_Line">
                 <param name="width" value="1880" />
                 <param name="label" value="$INFO[Control.GetLabel(3),, ]$INFO[Control.GetLabel(4),[COLOR=PosterBorder]-[/COLOR] , ]" />
             </include>
-            <include name="View_Logos_List">
+            <include content="View_Logos_List">
                 <param name="id" value="162" />
                 <param name="condition" value="Container.Content(sets) | Container.Content(tvshows) | Container.Content(movies)" />
             </include>

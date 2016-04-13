@@ -6,17 +6,17 @@
             <include>Dialog_Top</include>
             <include condition="IsEmpty(Skin.String(SubmenuStyle)) | Skin.String(SubmenuStyle, Large)">Dialog_Background_Home</include>
             <include condition="Skin.String(SubmenuStyle, Small)">Dialog_Background_Home_Small</include>
-            <include name="Dialog_Top_IconHeader_Home" condition="IsEmpty(Skin.String(SubmenuStyle)) | Skin.String(SubmenuStyle, Large)">
+            <include content="Dialog_Top_IconHeader_Home" condition="IsEmpty(Skin.String(SubmenuStyle)) | Skin.String(SubmenuStyle, Large)">
                 <param name="label" value="$LOCALIZE[33060]" />
                 <param name="icon" value="special://skin/extras/icons/power.png" />
             </include>
-            <include name="Dialog_Top_IconHeader_Home_Small" condition="Skin.String(SubmenuStyle, Small)">
+            <include content="Dialog_Top_IconHeader_Home_Small" condition="Skin.String(SubmenuStyle, Small)">
                 <param name="icon" value="special://skin/extras/icons/power.png" />
             </include>
-            <include name="Dialog_Top_Arrows_Home" condition="IsEmpty(Skin.String(SubmenuStyle)) | Skin.String(SubmenuStyle, Large)">
+            <include content="Dialog_Top_Arrows_Home" condition="IsEmpty(Skin.String(SubmenuStyle)) | Skin.String(SubmenuStyle, Large)">
                 <param name="id" value="9000" />
             </include>
-            <include name="Dialog_Top_Arrows_Home_Small" condition="Skin.String(SubmenuStyle, Small)">
+            <include content="Dialog_Top_Arrows_Home_Small" condition="Skin.String(SubmenuStyle, Small)">
                 <param name="id" value="9000" />
             </include>   
 

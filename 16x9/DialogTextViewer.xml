@@ -19,7 +19,7 @@
                 <left>side</left>
                 <right>side</right>
                 <bottom>side</bottom>
-                <include name="Object_Line">
+                <include content="Object_Line">
                     <param name="width" value="1160" />
                     <param name="label" value="$LOCALIZE[587]" />
                 </include>

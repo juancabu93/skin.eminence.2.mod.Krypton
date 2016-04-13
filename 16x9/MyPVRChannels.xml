@@ -10,10 +10,10 @@
         <include>Furniture_TopBar</include>
         
         <include>PVR_List</include>
-        <include name="PVR_SmallList">
+        <include content="PVR_SmallList">
             <param name="id" value="164" />
         </include>
-        <include name="PVR_WideList">
+        <include content="PVR_WideList">
             <param name="id" value="163" />
         </include>
 

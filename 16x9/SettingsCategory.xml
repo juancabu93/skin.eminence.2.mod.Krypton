@@ -16,7 +16,7 @@
                 <top>top</top>
                 <height>height</height>
                 <width>475</width>
-                <include name="Object_Line">
+                <include content="Object_Line">
                     <param name="width" value="475" />
                     <param name="label" value="$INFO[Control.GetLabel(20)]" />
                 </include>
@@ -50,7 +50,7 @@
                 <top>top</top>
                 <height>height</height>
                 <right>side</right>
-                <include name="Object_Line">
+                <include content="Object_Line">
                     <param name="width" value="1395" />
                     <param name="label" value="$LOCALIZE[33063]" />
                 </include>

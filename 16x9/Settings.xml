@@ -17,7 +17,7 @@
                 <right>pad</right>
                 <top>top</top>
                 <height>700</height>
-                <include name="Object_Line">
+                <include content="Object_Line">
                     <param name="width" value="1880" />
                     <param name="label" value="$LOCALIZE[31073]" />
                 </include>

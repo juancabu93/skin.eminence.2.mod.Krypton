@@ -21,7 +21,7 @@
                 <visible>Control.IsVisible(3)</visible>
                 <include>Dialog_Background</include>
             </control>
-            <include name="Dialog_Top_IconHeader">
+            <include content="Dialog_Top_IconHeader">
                 <param name="label" value="$INFO[Control.GetLabel(1)]" />
                 <param name="icon" value="special://skin/extras/icons/filebox.png" />
             </include>
@@ -42,7 +42,7 @@
                 <visible>Control.IsVisible(6)</visible>
                 <texture background="true" fallback="DefaultAddon.png">$INFO[Container(6).ListItem.Icon]</texture>
             </control>
-            <include name="Dialog_FavouriteList">
+            <include content="Dialog_FavouriteList">
                 <param name="id" value="3" />
                 <param name="onup" value="3" />
                 <param name="ondown" value="3" />
@@ -52,7 +52,7 @@
                 <param name="width" value="1116" />
                 <param name="bottom" value="side" />
             </include>
-            <include name="Dialog_ImageList">
+            <include content="Dialog_ImageList">
                 <param name="id" value="6" />
                 <param name="onup" value="6" />
                 <param name="ondown" value="6" />

@@ -19,7 +19,7 @@
                 <height>height</height>
                 <control type="group">
                     <width>620</width>
-                    <include name="Object_Line">
+                    <include content="Object_Line">
                         <param name="width" value="620" />
                         <param name="label" value="$LOCALIZE[19146]" />
                     </include>
@@ -70,7 +70,7 @@
                 <control type="group">
                     <left>630</left>
                     <width>620</width>
-                    <include name="Object_Line">
+                    <include content="Object_Line">
                         <param name="width" value="620" />
                         <param name="label" value="$INFO[Control.GetLabel(21)]" />
                     </include>
@@ -127,7 +127,7 @@
                 <control type="group">
                     <left>1260</left>
                     <width>620</width>
-                    <include name="Object_Line">
+                    <include content="Object_Line">
                         <param name="width" value="620" />
                         <param name="label" value="$INFO[Control.GetLabel(22)]" />
                     </include>

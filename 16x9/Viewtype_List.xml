@@ -10,11 +10,11 @@
             <right>side</right>
             <top>top</top>
             <height>height</height>
-            <include name="Object_Poster">
+            <include content="Object_Poster">
                 <param name="left" value="posterx" />
                 <param name="width" value="posterw" />
             </include>
-            <include name="View_List">
+            <include content="View_List">
                 <param name="viewlabel" value="535" />
                 <param name="posx" value="0" />
                 <param name="width" value="listw" />
@@ -37,11 +37,11 @@
             <right>side</right>
             <top>top</top>
             <height>height</height>
-            <include name="Object_Poster">
+            <include content="Object_Poster">
                 <param name="left" value="1190" />
                 <param name="width" value="690" />
             </include>
-            <include name="View_List">
+            <include content="View_List">
                 <param name="viewlabel" value="535" />
                 <param name="posx" value="0" />
                 <param name="width" value="1180" />
@@ -65,15 +65,15 @@
             <right>side</right>
             <top>top</top>
             <height>height</height>
-            <include name="Object_Line">
+            <include content="Object_Line">
                 <param name="width" value="listw" />
                 <param name="label" value="$INFO[Control.GetLabel(3),, ]$INFO[Control.GetLabel(4),[COLOR=PosterBorder]-[/COLOR] , ]" />
             </include>
-            <include name="Object_Poster">
+            <include content="Object_Poster">
                 <param name="left" value="posterx" />
                 <param name="width" value="posterw" />
             </include>
-            <include name="View_InfoList">
+            <include content="View_InfoList">
                 <param name="id" value="508" />
                 <param name="width" value="listw" />
                 <param name="name" value="31192" />
@@ -90,11 +90,11 @@
             <right>side</right>
             <top>top</top>
             <height>height</height>
-            <include name="Object_Line">
+            <include content="Object_Line">
                 <param name="width" value="1880" />
                 <param name="label" value="$INFO[Control.GetLabel(3),, ]$INFO[Control.GetLabel(4),[COLOR=PosterBorder]-[/COLOR] , ]" />
             </include>
-            <include name="View_InfoList">
+            <include content="View_InfoList">
                 <param name="id" value="509" />
                 <param name="width" value="1880" />
 <!-- Modification Param -->                
@@ -244,7 +244,7 @@
             <right>side</right>
             <top>top</top>
             <height>height</height>
-            <include name="View_List">
+            <include content="View_List">
                 <param name="viewlabel" value="31645" />
                 <param name="posx" value="0" />
                 <param name="width" value="1130" />
@@ -269,7 +269,7 @@
             <right>side</right>
             <top>top</top>
             <height>height</height>
-            <include name="View_List">
+            <include content="View_List">
                 <param name="viewlabel" value="31143" />
                 <param name="posx" value="0" />
                 <param name="width" value="850" />
@@ -296,7 +296,7 @@
             <right>side</right>
             <top>top</top>
             <height>height</height>
-            <include name="View_List">
+            <include content="View_List">
                 <param name="viewlabel" value="31148" />
                 <param name="posx" value="0" />
                 <param name="width" value="653" />
@@ -304,11 +304,11 @@
                 <param name="label3" value="false" />
                 <param name="condition" value="Container.Content(seasons) | Container.Content(movies) | Container.Content(tvshows) | Container.Content(episodes) | Container.Content(sets)" />
             </include>
-            <include name="Object_Poster">
+            <include content="Object_Poster">
                 <param name="left" value="1413" />
                 <param name="width" value="posterw" />
             </include>
-            <include name="Object_ExtraInfo">
+            <include content="Object_ExtraInfo">
                 <param name="left" value="663" />
             </include>
             <control type="group">
@@ -338,12 +338,12 @@
             <control type="group">
                 <right>0</right>
                 <width>1211</width>
-                <include name="Object_Line">
+                <include content="Object_Line">
                     <param name="width" value="1211" />
                     <param name="label" value="19033" />
                 </include>
             </control>
-            <include name="View_List">
+            <include content="View_List">
                 <param name="viewlabel" value="31164" />
                 <param name="posx" value="0" />
                 <param name="width" value="659" />
@@ -368,11 +368,11 @@
             <right>side</right>
             <top>top</top>
             <height>height</height>
-            <include name="Object_Line">
+            <include content="Object_Line">
                 <param name="width" value="1880" />
                 <param name="label" value="$INFO[Control.GetLabel(3),, ]$INFO[Control.GetLabel(4),[COLOR=PosterBorder]-[/COLOR] , ]" />
             </include>
-            <include name="View_BigList">
+            <include content="View_BigList">
                 <param name="id" value="58" />
                 <param name="width" value="630" />
                 <param name="condition" value="!Container.Content(genres) + !Container.Content(songs) + !Container.Content(files)" />
@@ -393,11 +393,11 @@
             <right>0</right>
             <top>top</top>
             <height>height</height>
-            <include name="Object_Line">
+            <include content="Object_Line">
                 <param name="width" value="1880" />
                 <param name="label" value="$INFO[Control.GetLabel(3),, ]$INFO[Control.GetLabel(4),[COLOR=PosterBorder]-[/COLOR] , ]" />
             </include>
-            <include name="View_BigList">
+            <include content="View_BigList">
                 <param name="id" value="57" />
                 <param name="width" value="1890" />
                 <param name="condition" value="!Container.Content(genres)" />
@@ -418,11 +418,11 @@
             <right>0</right>
             <top>top</top>
             <height>height</height>
-            <include name="Object_Line">
+            <include content="Object_Line">
                 <param name="width" value="1130" />
                 <param name="label" value="$INFO[Control.GetLabel(3),, ]$INFO[Control.GetLabel(4),[COLOR=PosterBorder]-[/COLOR] , ]" />
             </include>
-            <include name="View_BigList">
+            <include content="View_BigList">
                 <param name="id" value="501" />
                 <param name="width" value="1140" />
                 <param name="condition" value="Container.Content(movies) | Container.Content(episodes) | Container.Content(seasons) | Container.Content(sets) | Container.Content(tvshows) | Container.Content(artists) | Container.Content(albums)" />
@@ -843,7 +843,7 @@
             <control type="group">
                 <left>$PARAM[posx]</left>
                 <width>$PARAM[width]</width>
-                <include name="Object_Line">
+                <include content="Object_Line">
                     <param name="width" value="$PARAM[width]" />
                     <param name="label" value="$INFO[Control.GetLabel(3),, ]$INFO[Control.GetLabel(4),[COLOR=PosterBorder]-[/COLOR] , ]" />
                 </include>
@@ -980,12 +980,12 @@
             <control type="group">
                 <right>0</right>
                 <width>1211</width>
-                <include name="Object_Line">
+                <include content="Object_Line">
                     <param name="width" value="1211" />
                     <param name="label" value="19033" />
                 </include>
             </control>
-            <include name="View_FanartLogo">
+            <include content="View_FanartLogo">
                 <param name="viewlabel" value="31742" />
                 <param name="posx" value="0" />
                 <param name="width" value="659" />
@@ -1003,7 +1003,7 @@
             <control type="group">
                 <left>$PARAM[posx]</left>
                 <width>$PARAM[width]</width>
-                <include name="Object_Line">
+                <include content="Object_Line">
                     <param name="width" value="$PARAM[width]" />
                     <param name="label" value="$INFO[Control.GetLabel(3),, ]$INFO[Control.GetLabel(4),[COLOR=PosterBorder]-[/COLOR] , ]" />
                 </include>

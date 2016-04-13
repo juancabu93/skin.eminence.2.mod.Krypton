@@ -14,7 +14,7 @@
 		</control>
         
         <!--Header-->  
-        <include name="Dialog_Top_IconHeader">
+        <include content="Dialog_Top_IconHeader">
                 <param name="label" value="$LOCALIZE[19140]" />
                 <param name="icon" value="special://skin/extras/icons/search.png" />
          </include>

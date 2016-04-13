@@ -14,7 +14,7 @@
             <control type="group">
                 <top>70</top>
                 <left>side</left>
-                <include name="Object_Poster">
+                <include content="Object_Poster">
                     <param name="left" value="0" />
                     <param name="width" value="690" />
                 </include>
@@ -29,7 +29,7 @@
                     <texture colordiffuse="PosterBorder">common/white.png</texture>
                 </control>
                 <control type="group">
-                    <include name="Object_Line">
+                    <include content="Object_Line">
                         <param name="width" value="1180" />
                         <param name="label" value="207" />
                     </include>
@@ -521,12 +521,12 @@
                     <preloaditems>2</preloaditems>
                     <scrolltime tween="quadratic">400</scrolltime>
                     <itemlayout height="415" width="554">
-                        <include name="DefExtendedInfoItemContent">
+                        <include content="DefExtendedInfoItemContent">
                             <param name="diffusetexture" value="common/white.png" />
                         </include>
                     </itemlayout>
                     <focusedlayout height="415" width="554">
-                        <include name="DefExtendedInfoFocusContent">
+                        <include content="DefExtendedInfoFocusContent">
                             <param name="diffusetexture" value="common/white.png" />
                         </include>
                     </focusedlayout>
@@ -552,12 +552,12 @@
                     <preloaditems>2</preloaditems>
                     <scrolltime tween="quadratic">400</scrolltime>
                     <itemlayout height="415" width="554">
-                        <include name="DefExtendedInfoItemContent">
+                        <include content="DefExtendedInfoItemContent">
                             <param name="diffusetexture" value="diffuse/wall-fanart.png" />
                         </include>
                     </itemlayout>
                     <focusedlayout height="415" width="554">
-                        <include name="DefExtendedInfoFocusContent">
+                        <include content="DefExtendedInfoFocusContent">
                             <param name="diffusetexture" value="diffuse/wall-fanart.png" />
                         </include>
                     </focusedlayout>

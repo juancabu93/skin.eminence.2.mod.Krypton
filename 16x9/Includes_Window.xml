@@ -22,7 +22,7 @@
                     <width>1210</width>
                     <height>100%</height>
                     <control type="group">
-                        <include name="Object_Line">
+                        <include content="Object_Line">
                             <param name="width" value="1210" />
                             <param name="label" value="$VAR[Label_Hub_WidgetType]" />
                         </include>
@@ -141,7 +141,7 @@
                     <top>0</top>
                     <width>660</width>
                     <height>100%</height>
-                    <include name="Object_Line">
+                    <include content="Object_Line">
                         <param name="width" value="660" />
                         <param name="label" value="$LOCALIZE[31073]" />
                     </include>

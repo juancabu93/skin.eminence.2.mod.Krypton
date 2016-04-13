@@ -23,7 +23,7 @@
             <control type="group">
                 <top>70</top>
                 <left>side</left>
-                <include name="Object_Poster">
+                <include content="Object_Poster">
                     <param name="left" value="0" />
                     <param name="width" value="posterw" />
                 </include>
@@ -38,7 +38,7 @@
                     <texture colordiffuse="PosterBorder">common/white.png</texture>
                 </control>
                 <control type="group">
-                    <include name="Object_Line">
+                    <include content="Object_Line">
                         <param name="width" value="1404" />
                         <param name="label" value="$VAR[Label_ExtendedInfo_InfoLine]" />
                     </include>
@@ -286,7 +286,7 @@
                     
                 </control>
                 <!-- BUTTONS -->
-                <include name="Dialog_Info_Arrows">
+                <include content="Dialog_Info_Arrows">
                     <param name="id" value="9000" />
                 </include>
                 <control type="grouplist" id="9000">
@@ -433,7 +433,7 @@
                 </control>
 
             </control>
-            <include name="Dialog_ImageList">
+            <include content="Dialog_ImageList">
                 <param name="id" value="150" />
                 <param name="type" value="list" />
                 <param name="moveid" value="ClearProperty(content)" />
@@ -446,7 +446,7 @@
                 <param name="backpanel" value="false" />
                 <param name="visible" value="StringCompare(Window.Property(content),150)" />
             </include>
-            <include name="Dialog_ImageList">
+            <include content="Dialog_ImageList">
                 <param name="id" value="350" />
                 <param name="type" value="list" />
                 <param name="moveid" value="ClearProperty(content)" />
@@ -459,7 +459,7 @@
                 <param name="backpanel" value="false" />
                 <param name="visible" value="StringCompare(Window.Property(content),350)" />
             </include>
-            <include name="Dialog_ImageList">
+            <include content="Dialog_ImageList">
                 <param name="id" value="750" />
                 <param name="type" value="panel" />
                 <param name="moveid" value="ClearProperty(content)" />
@@ -473,7 +473,7 @@
                 <param name="backpanel" value="false" />
                 <param name="visible" value="StringCompare(Window.Property(content),750)" />
             </include>
-            <include name="Dialog_ImageList">
+            <include content="Dialog_ImageList">
                 <param name="id" value="1000" />
                 <param name="type" value="panel" />
                 <param name="moveid" value="ClearProperty(content)" />
@@ -487,7 +487,7 @@
                 <param name="backpanel" value="false" />
                 <param name="visible" value="StringCompare(Window.Property(content),1000)" />
             </include>
-            <include name="Dialog_ImageList">
+            <include content="Dialog_ImageList">
                 <param name="id" value="1150" />
                 <param name="type" value="list" />
                 <param name="moveid" value="ClearProperty(content)" />
@@ -500,7 +500,7 @@
                 <param name="backpanel" value="false" />
                 <param name="visible" value="StringCompare(Window.Property(content),1150)" />
             </include>
-            <include name="Dialog_ImageList">
+            <include content="Dialog_ImageList">
                 <param name="id" value="850" />
                 <param name="type" value="panel" />
                 <param name="moveid" value="ClearProperty(content)" />
@@ -514,7 +514,7 @@
                 <param name="noimage" value="true" />
                 <param name="visible" value="StringCompare(Window.Property(content),850)" />
             </include>
-            <include name="Dialog_ImageList">
+            <include content="Dialog_ImageList">
                 <param name="id" value="950" />
                 <param name="type" value="panel" />
                 <param name="moveid" value="ClearProperty(content)" />
