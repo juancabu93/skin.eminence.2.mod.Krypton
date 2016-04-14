@@ -71,7 +71,7 @@
         
 <control type="group">
             <control type="list" id="52">
-                <visible>!Window.IsVisible(ProfileSettings.xml)</visible>
+                <visible>!Window.IsVisible(DialogSettings.xml)</visible>
                 <posx>635</posx>
                 <posy>360</posy>
                 <width>650</width>

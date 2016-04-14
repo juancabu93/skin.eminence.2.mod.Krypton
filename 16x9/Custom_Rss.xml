@@ -24,7 +24,7 @@
             <include>Animation_FadeIn</include>
             <include>Animation_FadeOut</include>
             <visible>Window.IsVisible(home)</visible>
-            <visible>!Window.IsActive(DialogKaiToast.xml)</visible>
+            <visible>!Window.IsActive(DialogNotification.xml)</visible>
             <visible>!Window.IsActive(DialogExtendedProgressBar.xml)</visible>
             <visible>!Player.HasMedia</visible>
 <!-- Modification Visible -->            

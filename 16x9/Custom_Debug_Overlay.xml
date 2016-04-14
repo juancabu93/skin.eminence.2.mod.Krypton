@@ -55,8 +55,8 @@
 
                 <control type="label">
                     <include>WindowID</include>
-                    <label>MyMusicPlaylist.xml</label>
-                    <visible>Window.IsVisible(MyMusicPlaylist.xml)</visible>
+                    <label>MyPlaylist.xml</label>
+                    <visible>Window.IsVisible(MyPlaylist.xml)</visible>
                 </control>
 
                 <control type="label">
@@ -87,12 +87,6 @@
                     <include>WindowID</include>
                     <label>MyVideoNav.xml</label>
                     <visible>Window.IsVisible(MyVideoNav.xml)</visible>
-                </control>
-
-                <control type="label">
-                    <include>WindowID</include>
-                    <label>MyVideoPlaylist.xml</label>
-                    <visible>Window.IsVisible(MyVideoPlaylist.xml)</visible>
                 </control>
 
                 <control type="label">
@@ -141,8 +135,8 @@
 
                 <control type="label">
                     <include>DialogID</include>
-                    <label>DialogAlbumInfo.xml</label>
-                    <visible>Window.IsVisible(DialogAlbumInfo.xml)</visible>
+                    <label>DialogMusicInfo.xml</label>
+                    <visible>Window.IsVisible(DialogMusicInfo.xml)</visible>
                 </control>
 
                 <control type="label">
@@ -159,8 +153,8 @@
 
                 <control type="label">
                     <include>DialogID</include>
-                    <label>DialogContentSettings.xml</label>
-                    <visible>Window.IsVisible(DialogContentSettings.xml)</visible>
+                    <label>DialogSettings.xml</label>
+                    <visible>Window.IsVisible(DialogSettings.xml)</visible>
                 </control>
 
                 <control type="label">
@@ -189,8 +183,8 @@
 
                 <control type="label">
                     <include>DialogID</include>
-                    <label>DialogKaiToast.xml</label>
-                    <visible>Window.IsVisible(DialogKaiToast.xml)</visible>
+                    <label>DialogNotification.xml</label>
+                    <visible>Window.IsVisible(DialogNotification.xml)</visible>
                 </control>
 
                 <control type="label">
@@ -225,14 +219,8 @@
 
                 <control type="label">
                     <include>DialogID</include>
-                    <label>DialogMuteBug.xml</label>
-                    <visible>Window.IsVisible(DialogMuteBug.xml)</visible>
-                </control>
-
-                <control type="label">
-                    <include>DialogID</include>
-                    <label>DialogNetworkSetup.xml</label>
-                    <visible>Window.IsVisible(DialogNetworkSetup.xml)</visible>
+                    <label>DialogVolumeBar.xml</label>
+                    <visible>Window.IsVisible(DialogVolumeBar.xml)</visible>
                 </control>
 
                 <control type="label">
@@ -243,8 +231,8 @@
 
                 <control type="label">
                     <include>DialogID</include>
-                    <label>DialogOk.xml</label>
-                    <visible>Window.IsVisible(DialogOk.xml)</visible>
+                    <label>DialogConfirm.xml</label>
+                    <visible>Window.IsVisible(DialogConfirm.xml)</visible>
                 </control>
 
                 <control type="label">
@@ -255,20 +243,8 @@
 
                 <control type="label">
                     <include>DialogID</include>
-                    <label>DialogPeripheralSettings.xml</label>
-                    <visible>Window.IsVisible(DialogPeripheralSettings.xml)</visible>
-                </control>
-
-                <control type="label">
-                    <include>DialogID</include>
                     <label>DialogPictureInfo.xml</label>
                     <visible>Window.IsVisible(DialogPictureInfo.xml)</visible>
-                </control>
-
-                <control type="label">
-                    <include>DialogID</include>
-                    <label>DialogProgress.xml</label>
-                    <visible>Window.IsVisible(DialogProgress.xml)</visible>
                 </control>
 
                 <control type="label">
@@ -287,12 +263,6 @@
                     <include>DialogID</include>
                     <label>DialogSlider.xml</label>
                     <visible>Window.IsVisible(DialogSlider.xml)</visible>
-                </control>
-
-                <control type="label">
-                    <include>DialogID</include>
-                    <label>DialogSongInfo.xml</label>
-                    <visible>Window.IsVisible(DialogSongInfo.xml)</visible>
                 </control>
 
                 <control type="label">
@@ -321,20 +291,8 @@
 
                 <control type="label">
                     <include>DialogID</include>
-                    <label>DialogYesNo.xml</label>
-                    <visible>Window.IsVisible(DialogYesNo.xml)</visible>
-                </control>
-
-                <control type="label">
-                    <include>DialogID</include>
                     <label>FileBrowser.xml</label>
                     <visible>Window.IsVisible(FileBrowser.xml)</visible>
-                </control>
-
-                <control type="label">
-                    <include>DialogID</include>
-                    <label>LockSettings.xml</label>
-                    <visible>Window.IsVisible(LockSettings.xml)</visible>
                 </control>
 
                 <control type="label">
@@ -365,12 +323,6 @@
                     <include>DialogID</include>
                     <label>PlayerControls.xml</label>
                     <visible>Window.IsVisible(PlayerControls.xml)</visible>
-                </control>
-
-                <control type="label">
-                    <include>DialogID</include>
-                    <label>ProfileSettings.xml</label>
-                    <visible>Window.IsVisible(ProfileSettings.xml)</visible>
                 </control>
 
                 <control type="label">
@@ -413,12 +365,6 @@
                     <include>DialogID</include>
                     <label>VideoOSDBookmarks.xml</label>
                     <visible>Window.IsVisible(VideoOSDBookmarks.xml)</visible>
-                </control>
-
-                <control type="label">
-                    <include>DialogID</include>
-                    <label>VideoOSDSettings.xml</label>
-                    <visible>Window.IsVisible(VideoOSDSettings.xml)</visible>
                 </control>
 
                 <control type="label">

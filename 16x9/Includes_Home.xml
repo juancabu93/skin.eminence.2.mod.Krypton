@@ -1322,8 +1322,32 @@
     </include>
 
     <!-- Home Widget -->
+    <include name="Home_Widget_Control_NoPersist">
+         <control type="wraplist" id="9001">
+             <orientation>horizontal</orientation>
+             <width>100%</width>
+             <top>top</top>
+             <height>height</height>
+             <onfocus>SetProperty(FO9001,1,home)</onfocus>
+             <onunfocus>ClearProperty(FO9001,home)</onunfocus>
+             <onup>ClearProperty(FO9001,home)</onup>
+             <ondown>ClearProperty(FO9001,home)</ondown>
+             <onback>ClearProperty(FO9001,home)</onback>
+             <onback>9000</onback>
+             <ondown>9000</ondown>
+             <onup>9000</onup>
+             <oninfo condition="IsEmpty(Container(9001).ListItem.TvShowTitle) + IsEmpty(Container(9001).ListItem.Artist)">RunScript(script.extendedinfo,info=extendedinfo,name=$INFO[Container(9001).ListItem.Title],imdb_id=$INFO[Container(9001).ListItem.IMDBNumber])</oninfo>
+             <oninfo condition="!IsEmpty(Container(9001).ListItem.TvShowTitle)">RunScript(script.extendedinfo,info=extendedtvinfo,name=$INFO[Container(9001).ListItem.TvShowTitle],imdb_id=$INFO[Container(9001).ListItem.IMDBNumber])</oninfo>
+             <autoscroll time="8000">![Control.HasFocus(9001) | Control.HasFocus(9101)]</autoscroll>
+             <scrolltime tween="sine" easing="out">240</scrolltime>
+             <itemlayout />
+             <focusedlayout width="1920" height="1080" />
+             <content target="video">$VAR[Defs_HomeWidget_Content]</content>
+         </control>
+    </include>
     <include name="Home_Widget_Control">
-            <include condition="[IsEmpty(Container(9000).ListItem.Property(ParentalControl)) | SubString(Container(9000).ListItem.Property(ParentalControl),no)] | StringCompare(Skin.String(mypassword),Skin.String(passcode))">skinshortcuts-template-widget</include>
+         <include condition="!Skin.HasSetting(widgets.persistent) + ">Home_Widget_Control_NoPersist</include>
+         <include condition="Skin.HasSetting(widgets.persistent) + [IsEmpty(Container(9000).ListItem.Property(ParentalControl)) | SubString(Container(9000).ListItem.Property(ParentalControl),no)] | StringCompare(Skin.String(mypassword),Skin.String(passcode))">skinshortcuts-template-widget</include>
         <control type="button" id="9101">
             <width>100%</width>
             <top>top</top>
@@ -1638,7 +1662,7 @@
             <control type="group">
                 <visible>Window.IsVisible(home)</visible>
                 <!-- <visible>![Control.HasFocus(9001) | Control.HasFocus(9101)]</visible> -->
-                <visible>!Window.IsActive(DialogKaiToast.xml)</visible>
+                <visible>!Window.IsActive(DialogNotification.xml)</visible>
                 <visible>!Window.IsActive(DialogExtendedProgressBar.xml)</visible>
                 <visible>!Player.HasMedia</visible>
                 <visible>system.getbool(lookandfeel.enablerssfeeds)</visible>
@@ -1664,7 +1688,7 @@
             </control>
             <control type="group">
                 <visible>Window.IsVisible(home)</visible>
-                <visible>!Window.IsActive(DialogKaiToast.xml)</visible>
+                <visible>!Window.IsActive(DialogNotification.xml)</visible>
                 <visible>!Window.IsActive(DialogExtendedProgressBar.xml)</visible>
                 <visible>Player.HasMedia</visible>
                 <animation effect="slide" end="0,-266" condition="true">Conditional</animation>
@@ -1872,7 +1896,7 @@
             </control>
             <control type="group">
                 <bottom>266</bottom>
-                <visible>Window.IsActive(DialogKaiToast.xml)</visible>
+                <visible>Window.IsActive(DialogNotification.xml)</visible>
                 <visible>!Window.IsVisible(weather)</visible>
                 <animation effect="slide" start="-1200" end="0" time="250">VisibleChange</animation>
                 <control type="image">
@@ -1887,7 +1911,7 @@
             </control>
             <control type="group">
                 <bottom>266</bottom>
-                <visible>!Window.IsActive(DialogKaiToast.xml)</visible>
+                <visible>!Window.IsActive(DialogNotification.xml)</visible>
                 <visible>!Window.IsVisible(weather)</visible>
                 <visible>Window.IsActive(DialogExtendedProgressBar.xml)</visible>
                 <animation effect="slide" start="-1200" end="0" time="250">VisibleChange</animation>
